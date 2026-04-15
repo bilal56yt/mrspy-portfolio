@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MRSPY | God Mode Portfolio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0a0a0a;
+  color: #00ff99;
+}
+
+/* TOP BAR */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid #00ff99;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin: 0;
+  text-shadow: 0 0 20px #00ff99;
+}
+
+.hero p {
+  color: white;
+  margin-top: 10px;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 10px 15px;
+  background: #00ff99;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: white;
+}
+
+/* SECTIONS */
+.section {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 15px;
+  margin: 10px 0;
+  border-left: 4px solid #00ff99;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px #00ff99;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.project {
+  background: #111;
+  padding: 15px;
+  border-left: 4px solid #00ff99;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #00ff99;
+  margin-top: 30px;
+  color: white;
+}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+  .hero h1{font-size:35px;}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="topbar">
+  <div>MRSPY</div>
+  <div>Cyber Developer</div>
+</div>
+
+<div class="hero">
+  <h1>MRSPY</h1>
+  <p>Cyber Security • Web Developer • Shopify Expert</p>
+
+  <button class="btn">Hire Me</button>
+  <button class="btn">Download CV</button>
+</div>
+
+<div class="section">
+
+  <h2>ABOUT</h2>
+  <div class="card">
+    Passionate developer skilled in Cyber Security, WordPress, Shopify eCommerce, and Full Stack Development (learning phase).
+  </div>
+
+  <h2>SKILLS</h2>
+  <div class="card">
+    Cyber Security (Intermediate) <br>
+    WordPress Development <br>
+    Shopify Stores <br>
+    Full Stack (Learning)
+  </div>
+
+  <h2>PROJECTS</h2>
+  <div class="grid">
+    <div class="project">WordPress Websites</div>
+    <div class="project">Shopify Stores</div>
+    <div class="project">Security Labs</div>
+  </div>
+
+  <h2>LANGUAGES</h2>
+  <div class="card">
+    Urdu | Punjabi | English
+  </div>
+
+  <h2>CONTACT</h2>
+  <div class="card">
+    Email: your@email.com <br>
+    Phone: 03XXXXXXXXX
+  </div>
+
+</div>
+
+<footer>
+© 2026 MRSPY | God Mode Portfolio
+</footer>
+
+</body>
+</html>
